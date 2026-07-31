@@ -1,40 +1,16 @@
-# DevOps Engineering Handbook
+# Kubernetes
 
-A practical DevOps knowledge base covering Kubernetes, cloud, containers, IaC, automation, CI/CD, monitoring, troubleshooting, and interview scenarios.
+Kubernetes is a container orchestration platform used to deploy, manage, scale and heal containerized applications.
 
-## Current Focus: Kubernetes
+## Topics in this section
 
-This repository starts with Kubernetes fundamentals and will grow into a broader DevOps engineering handbook.
-
-### Topics
-- Kubernetes architecture
-- Pods
-- ReplicaSets
-- Deployments
-- Services
-- ClusterIP / NodePort / LoadBalancer
-- Ingress
-- ConfigMaps & Secrets
-- Health probes
-- Taints & Tolerations
-- RBAC
-- Troubleshooting
-- Interview scenarios
-
-## Learning Format
-
-Each topic focuses on:
-1. Concept
-2. Why it is required
-3. Architecture / traffic flow
-4. YAML examples
-5. kubectl commands
-6. Real-world scenarios
-7. Troubleshooting
-8. Interview questions
-
-> Personal learning material only. No proprietary or confidential company information is included.
-
-## Roadmap
-
-Kubernetes → Docker → AWS → Terraform → Ansible → Jenkins/GitHub Actions → Helm → Prometheus/Grafana → End-to-End Projects → Interview Scenarios
+- [01 - Architecture](01-kubernetes-architecture.md)
+- [02 - Pods](02-pods.md)
+- [03 - ReplicaSets](03-replicasets.md)
+- [04 - Deployments](04-deployments.md)
+- [05 - Services](05-services.md)
+- [06 - Ingress](06-ingress.md)
+- [07 - ConfigMaps & Secrets](07-configmaps-secrets.md)
+- [08 - Health Probes](08-health-probes.md)
+- [09 - Taints & Tolerations](09-taints-tolerations.md)
+- [10 - Troubleshooting](10-troubleshooting.md)
